@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.upper-container{
+    width: 90%;
+    height: 90%;
+    margin: 40px auto;
+    position:relative;
+    margin-left: 35%;
+    padding-left: 30px;
+    
+}
+.upper-container1{
+    width: 80%;
+    height: 100%;
+    padding-top: 20px;
+    
+}
+
+#arrow{
+    position: absolute;
+    padding-top: 5px;
+}
+#circle{
+    padding-left: 200px;
+    
+}
+#tasks{
+    padding-bottom: 10px;
+    font-size:20px;
+
+}
+#black{
+    font-size: 20px;
+}
+
+.card{
+    margin-top: 10px;
+    border: 1.5px solid green;
+    height: 45vh;
+    width: 25%;
+    position:relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px grey;
+    margin: auto;
+}
+
+.div1{
+    position:absolute;
+    top: 15px;
+    right: 0;
+    font-size: 25px;
+    width: 85%;
+    text-align: center;
+    height: 15%;
+    color: aqua;
+    border-bottom: 1px solid black;
+    padding-left: 15%;
+    
+    
+}
+.div2{
+    width: 90%;
+    height: 10%;
+    font-size: 20px;
+    color: lightslategray;
+    text-align:right;
+    position: absolute;
+    top: 30%;
+    font-weight: bold;
+    padding-left: 40px;
+    text-decoration: line-through;
+}
+
+.div3{
+    width: 80%;
+    height: 10%;
+    position: absolute;
+    top: 52%;
+    text-align:left;
+    font-size:20px;
+    font-weight: normal;
+    padding-left: 30px;
+}
+#check{
+    width: 15px;
+    height: 15px;
+
+}
+
+
+

@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+   
+}
+
+.upper-container{
+    width: 50%;
+    height: 10%;
+    margin: 50px auto;
+    position:relative;
+}
+.upper-container1{
+
+    width: 35%;
+    height: 100%;
+    padding-bottom: 60px;
+
+}
+
+#tasks{
+    
+    font-weight:bold;
+    font-size:2.5rem;
+}
+#list{
+    margin-left:10px ;
+    font-size:2.5rem;
+    color: aqua;
+}
+.upper-container2{
+    width: 30%;
+    height: 90%;
+    padding-top: 20px;
+    position:absolute;
+    top: 10px;
+    right: 10px;
+    
+    
+    
+}
+#circle{
+    padding-top:38px;
+}
+#addlist{
+    position:absolute;
+    width: 80%;
+    height: 100%;
+    top: 0px;
+    right: 0px;
+    font-size:30px;
+    opacity:0.5;
+    padding-top:60px;
+}
+
+
+.card1{
+    margin-top: 10px;
+    border: 1.5px solid green;
+    height: 50vh;
+    width: 20%;
+    position:relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px grey;
+    margin-left: 250px; 
+    flex-wrap: wrap;
+     
+}
+
+.div1{
+    position:absolute;
+    top: 15px;
+    right: 10px;
+    font-size: 18px;
+    width: 90%;
+    text-align: left;
+    height: 15%;
+    color: aqua;
+    
+}
+.div2{
+    width: 90%;
+    height: 10%;
+    font-size: 15px;
+    opacity: 0.5;
+    text-align: left;
+    position: absolute;
+    top: 35%;
+    text-decoration: line-through;
+}
+
+.div3{
+    width: 90%;
+    height: 10%;
+    position: absolute;
+    top: 52%;
+    text-align:left;
+    font-size:15px;
+    padding-left: 10px;
+    font-weight: normal;
+}
+.card2{
+    margin-top: 10px;
+    border: 1.5px solid green;
+    height: 50vh;
+    width: 20%;
+    position:relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px grey;
+    margin-left: 10px;
+    
+}
+.card3{
+    margin-top: 10px;
+    border: 1.5px solid green;
+    height: 50vh;
+    width: 20%;
+    position:relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px grey;
+    margin-left: 10px;
+}
+
+.card4{
+    margin-top: 10px;
+    border: 1.5px solid green;
+    height: 50vh;
+    width: 20%;
+    position:relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px grey;
+    margin-left: 250px;
+}
+
+.card5{
+    margin-top: 10px;
+    border: 1.5px solid green;
+    height: 50vh;
+    width: 20%;
+    position:relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px grey;
+    margin-left: 10px;
+    
+}
+.lower{
+    margin: 10px;
+    display: flex;
+    justify-content:start;
+    flex-wrap: wrap;
+}
