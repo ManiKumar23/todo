@@ -206,7 +206,11 @@
     left: 130px;
     justify-content: end;
     margin-left: 80px;
+    cursor: pointer; 
     
 }
+.pop-up-button:active{
+    transform: scale(1.05, 1.05);
 
+}
 
